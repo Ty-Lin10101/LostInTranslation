@@ -60,7 +60,7 @@ public class LanguageCodeConverter {
      * @return the name of the language corresponding to the code
      */
     public String fromLanguageCode(String code) {
-        return languageToLanguageCode.get(code);
+        return languageCodeToLanguage.get(code);
     }
 
     /**
@@ -69,7 +69,7 @@ public class LanguageCodeConverter {
      * @return the 2-letter code of the language
      */
     public String fromLanguage(String language) {
-        return languageCodeToLanguage.get(language);
+        return languageToLanguageCode.get(language);
     }
 
     /**
